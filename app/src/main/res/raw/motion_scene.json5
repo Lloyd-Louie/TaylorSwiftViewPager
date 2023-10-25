@@ -1,0 +1,296 @@
+{
+  ConstraintSets: {
+    start: {
+      profile_pic:{
+        width: 40,
+        height: 40,
+        start: ['parent','start',16],
+        top: ['parent','top',16],
+        custom: {
+          background: '#0097e6'
+        }
+      },
+      username_0: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#1abc9c',
+
+        }
+      },
+      username_1: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#f1c40f',
+
+        }
+      },
+      username_2: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#8e44ad',
+
+        }
+      },
+      username_3: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#c0392b',
+
+        }
+      },
+      username_4: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#3498db',
+
+        }
+      },
+      username_5: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#2f3640',
+
+        }
+      },
+      username_6: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#fd79a8',
+
+        }
+      },
+      username_7: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#b2bec3',
+
+        }
+      },
+      username_8: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#e67e22',
+        }
+      },
+      username_9: {
+        bottom: ['parent','bottom'],
+        top: ['profile_pic','top'],
+        start: ['profile_pic','end',16],
+        custom: {
+          background: '#273c75',
+        }
+      },
+      box: {
+        width: 'spread',
+        height: 'spread',
+        start: ['parent','start'],
+        end: ['parent','end'],
+        bottom: ['parent','bottom',-16],
+        top: ['parent','top'],
+      }
+    },
+
+    end: {
+      profile_pic:{
+        width: 150,
+        height: 150,
+        start: ['parent','start'],
+        end: ['parent','end'],
+        top: ['parent','top',16],
+        custom: {
+          background: '#FFFFFFF'
+        }
+      },
+      username_0: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_1: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_2: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_3: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_4: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_5: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_6: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_7: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_8: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      username_9: {
+        top: ['profile_pic','bottom',16],
+        end: ['parent','end'],
+        start: ['parent','start'],
+        bottom: ['parent','bottom',16],
+        custom: {
+          background: '#f5f6fa',
+        }
+      },
+      box: {
+        width: 'spread',
+        height: 'spread',
+        start: ['parent','start'],
+        end: ['parent','end'],
+        bottom: ['parent','bottom'],
+        top: ['parent','top'],
+      }
+    }
+  },
+  Transitions: {
+    default: {
+      from: 'start',
+      to: 'end',
+      pathMotionArc: 'startHorizontal',
+      KeyFrames: {
+        KeyAttributes: [
+          {
+            target: ['profile_pic'],
+            frames: [0,100],
+          },
+          {
+            target: ['username_0'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },
+          {
+            target: ['username_1'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },
+          {
+            target: ['username_2'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },
+          {
+            target: ['username_3'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },
+          {
+            target: ['username_4'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },
+          {
+            target: ['username_5'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },  {
+            target: ['username_6'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },
+          {
+            target: ['username_7'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },
+          {
+            target: ['username_8'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          },  {
+            target: ['username_9'],
+            frames: [0,50,100],
+            translationX: [0, 70, 0],
+            rotationX: [0, 45, 0],
+          }
+
+        ]
+      }
+    }
+  }
+}
